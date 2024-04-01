@@ -1,11 +1,7 @@
 (() => {
-    let sisterAge = 22;
-    let age = sisterAge + 5;
-    sisterAge += 6;
-    console.log (age);
-    
-    let brotherAge = 22;
-    let myAge = brotherAge + 5;
-    brotherAge -= 6;
-    console.log (myAge);
+    console.log( 2 + 2 );
+    console.log( 4 - 2 );
+    console.log( 4 * 2 );
+    console.log ( 4 / 2 );
+    console.log( 10 % 100);
 })();
