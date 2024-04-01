@@ -1,12 +1,10 @@
 (() => {
-    let min = new Number(prompt ('Enter a minimum number'));
-    let max = new Number(prompt ('Enter a maximal number'));
-    let current = new Number
 
-    if ( current > min && current < max) { 
-       console.log(prompt("Enter a current number"));
-    }
-    else ( min > max ) 
-    {    console.log("You're dumb, leave the site"); 
-    }
-    })();
+let min = prompt("Introduis un nombre minimal");
+let max = prompt("Introduis un nombre maximal");
+let current = prompt("Choisis un nombre au hasard");
+
+if (min > max) {
+   console.log("You're dumb, leave the site");
+}
+})();
