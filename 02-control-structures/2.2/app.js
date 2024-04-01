@@ -6,7 +6,7 @@
     if ( current > min && current < max) { 
          console.log("GG !");  
             }
-            else if ( min > max || max < min) 
+            else if ( min < max || max > min) 
             {
                 console.log("You're dumb, leave the site");}
         
