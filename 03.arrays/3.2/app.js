@@ -17,3 +17,5 @@
        const moyenne1 = somme1 / tableau1.length;
        console.log("La moyenne du tableau est :", moyenne1);
   })();
+
+  
