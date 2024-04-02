@@ -8,7 +8,7 @@ for (let nombre of tableau) {
     })();
 
     (() => {
-        let tableau = [101, 102, 103];
+        let tableau = [100, 101, 102];
         let somme = 0;
         for (let nombre of tableau) { 
             somme += nombre;
