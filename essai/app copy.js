@@ -1,4 +1,5 @@
 (() => {
+  
   let tableau = [12, 22, 333, 544, 15];
   let somme = 0;
     for ( let i = 0; i < tableau.length; i++){
